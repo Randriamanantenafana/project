@@ -1,0 +1,77 @@
+/* commande css */
+
+#commande{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    background-color: rgba(207, 204, 204, 0.5);
+    padding: 25px;
+    border-radius: 6px;
+    flex-direction: column;
+    width: 350px;
+}
+form label{
+    margin-top: 8px;
+    font-size: 14px;
+}
+form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    outline: 0;
+}
+form input:focus{
+    outline: 1px solid #27ac60;
+}
+form input[type="submit"]{
+    margin-top: 15px;
+    color: #fff;
+    background-color: #27ac60;
+    border: #27ac60;
+}
+/* footer css */
+footer{
+    background-color: rgba(0,0,0,0.05);
+}
+footer .service_list{
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service img{
+    width: 40px;
+    background-color: #27ac60;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 750%;
+    font-size: 14px;
+    border-radius: 50%;
+    background-color: #27ac60;
+    transition: 0.5s ease-out;
+}
+.icons i:hover{
+    background-color: #000;
+    color: #fff;
+}
